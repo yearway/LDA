@@ -139,7 +139,7 @@ int main()
 {
     Mat_<float> data, W;
     vector<Mat_<float>> Mi;
-    if (!readData("/Users/weiye/Documents/YEWEI/practice/LDA/0_CEHOG1-B16.featbin", data))
+    if (!readData("~/Documents/LDA/0_CEHOG1-B16.featbin", data))
         return 1;
 //    data = (Mat_<float>(11,2) << 1,2,2,3,3,3,4,5,5,5,1,0,2,1,3,1,3,2,5,3,6,5);
 
